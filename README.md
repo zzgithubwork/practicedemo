@@ -10,7 +10,7 @@
  * bash 基础命令
    - pwd 常看当前路径 mkdir 新建文件夹 touch 新建文件 cat 查看文件 rmdir删除文件夹
  * git 基础命令
-    ###创建和推送仓库的命令
+    ### 创建和推送仓库的命令
    - git init 创建一个本地仓库
    - git add . 添加本地所有文件到缓存区
    - git commit -m '描述信息' 将文件添加到本地仓库
@@ -20,7 +20,7 @@
    - git status 查看git本地仓库的状态
    - git checkout -- 文件名 会将缓存区或者本地仓库中的此文件修改的内容全部撤销
    - git clone '远程仓库地址' 克隆一个本地仓库
-    ###创建分支和合并分支的命令
+    ### 创建分支和合并分支的命令
    - git branch 查看所有分支
    - git branch 'name' 创建分支
    - git branch -d 'name' 删除分支
@@ -31,7 +31,7 @@
    - git log 查看日志 git reflog 查看版本号
    - git reset --hard 版本号 回滚到某个版本
    - git reset --hard HEAD~num 回滚到某个版本
-   ###适用于改其余bug保留当前进程
+   ### 适用于改其余bug保留当前进程
    - git stash 将当前工作区域隐藏起来 
    - git stash pop 恢复当前工作区域 
    - git remote -v 查看远程库的详细信息
