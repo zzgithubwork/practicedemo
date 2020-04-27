@@ -28,8 +28,8 @@ module.exports = {
      module:{ //第三方loader
          rules:[
             { test: /\.css$/, use:['style-loader','css-loader']},//需要安装 css-loader
-            {test: /\.less$/,use:['vue-style-loader','css-loader','less-loader']}, // less less-loader
-            {test: /\.scss$/,use:['vue-style-loader','css-loader','sass-loader']}, // sass-loade node-sass
+            {test: /\.less$/,use:['style-loader','css-loader','less-loader']}, // less less-loader
+            {test: /\.scss$/,use:['style-loader','css-loader','sass-loader']}, // sass-loade node-sass
             {test: /\.(jpg|png|gif|bmp|jpeg)$/, use:'url-loader?limit=4000&name=images/[name]-[hash:5].[ext]'},
              // url-loader file-loader
             {test: /\.(ttf|eot|svg|woff|woff2)$/,use:'url-loader'}, //处理字体文件
